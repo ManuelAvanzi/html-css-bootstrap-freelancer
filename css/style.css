@@ -5,6 +5,9 @@
 .light-green{
     color:aqua;
 }
+.gray{
+    background-color: #778899; 
+}
 .large{
    width: 100%;
    border-radius: 8px;
