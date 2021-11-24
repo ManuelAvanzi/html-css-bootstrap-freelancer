@@ -12,32 +12,104 @@
 </head>
 <body>
     
-    <header>
-        <!-- ------------------NAVBAR----------------------- -->
-    </header>
-       
-  
-      <!------------------ JUMBOTRON ---------------------->
-      <div class="jumbotron ms_green ms_text_white">
-          
-        <div class="container">
-         
-         <div class="row">
-           
-            <div class="col-xs-12 text-center">
-             <img class="picture-center" src="img/avatar.svg" alt="persona che sorride">
-             <h1>Start Bootstrap</h1>
-             <div class="ms_star">
-              <i class="fas fa-star"></i>
-             </div>
-             <h3>Graphic Artist - Web Designer - Illustrator</h3>
-           </div>
-
-         </div>
+    <!-------------------NAVBAR------------->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <form class="d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                  </ul>
+            </form>
+          </div>
         </div>
-      </div>
+      </nav>
 
+    <!------------- JUMBOTRON ----------------->
+    <div class="container-fluid jumbotron-main">
+        <div class="container">
+            <div class="row">
+                <div class="text-center py-5">
+                    <img src="./img/avatar.svg" class="profile-picture">
+                    <h1 class="py-1 text-uppercase white">start bootstrap</h1>
+                    <div class="star-line-white">  
+                     <i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i>
+                     <i class="fas fa-star my-1 mx-2"></i>
+                     <i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i>        
+                </div>
+                    <p class="text-uppercase mt-2 white">graphic artist - web designer - illustrator</p>
+                </div>            
+            </div>
+        </div>
+    </div>
 
+    <!---------- SECTION - PORTFOLIO ------------------->
+    <div class="container-fluid">
+        <div class="container">
+     
+            <div class="text-center">
+                <h1 class="py-1 mt-3 text-uppercase">portfolio</h1>
+                <div class="star-line-black mb-1 mb-2">  
+                    <i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i>
+                    <i class="fas fa-star my-1 mx-2"></i>
+                    <i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i>
+                </div>
+            </div>
+ 
+            <div class="row gx-5">
+                <div class="col-sm-6 col-lg-4 text-center mb-2">
+                    <div class="image">
+                        <img class="large" src="./img/cabin.png">
+                    </div>                    
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center mb-2">
+                    <div class="image">
+                        <img class="large" src="./img/cake.png">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center mb-2">
+                    <div class="image">
+                        <img class="large" src="./img/circus.png">
+                    </div>                    
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center mb-2">
+                    <div class="image"><img class="large" src="./img/game.png"></div>                    
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center mb-2">
+                    <div class="image">
+                        <img class="large" src="./img/safe.png">
+                    </div>                    
+                </div>
+
+                <div class="col-sm-6 col-lg-4 text-center mb-2">
+                    <div class="image">
+                        <img class="large" src="./img/submarine.png">
+                    </div>                    
+                </div>
+            </div>   
+
+        </div>
+    </div>
+
+   
     
 </body>
 </html>

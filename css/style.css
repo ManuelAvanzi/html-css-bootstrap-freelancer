@@ -1,54 +1,32 @@
 
-  
-  
- 
-  
-  
-  /* -----------JUMBOTRON --------------------*/
-.jumbotron{
-    margin: 0;
-}
-.picture-center{
-      width: 20%;
-}
-.ms_star:before,
-.ms_star:after {
-    content: '';
-    display: inline-block;
-    width: 15%;
-    height: 4px;
-    border-radius:2px;
-    background-color: white;
-    margin: 0 20px;
-}
-  
-.ms_star i {
-    font-size: 30px;
-    vertical-align: middle;
-}
- 
-
-h1 {
-    text-transform: uppercase;
-}
-.ms_green {
-    background-color: #1abc9c;
-}
-.ms_text_white {
+.white{
     color: white;
 }
-.ms_text_green {
-    color: #1abc9c;
+.large{
+   width: 100%;
+   border-radius: 8px;
+}
+/* --------------------------------------- */
+.navbar{
+    height: 80px;
+}
+/* ------------------------------------------ */
+.jumbotron-main{
+    background-color: #66CDAA;
+}
+.profile-picture{
+    width: 200px;
 }
 
-  
-  
-  /* ----------------- */
-@media screen and (max-width:768px) {
-    .jumbotron  h1{
-      font-size: 40px;
-    }
+.star-line-white .fas, .star-line-white .far{
+    color: white;
 }
-  
-  
-  
+
+.star-line-black .fas, .star-line-black .far{
+    color: black;
+}
+
+
+
+
+
