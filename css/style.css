@@ -2,6 +2,9 @@
 .white{
     color: white;
 }
+.light-green{
+    color:aqua;
+}
 .large{
    width: 100%;
    border-radius: 8px;
@@ -16,6 +19,9 @@
 /* ------------------------------------------ */
 .jumbotron-main,.about-section{
     background-color: #66CDAA;
+}
+.footer-section{
+    background-color: #2d4e6b;
 }
 .profile-picture{
     width: 200px;
